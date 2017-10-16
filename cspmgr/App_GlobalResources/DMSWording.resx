@@ -1,0 +1,1270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A0001" xml:space="preserve">
+    <value>新增</value>
+    <comment>2010/11/29 13:30:00</comment>
+  </data>
+  <data name="A0002" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="A0003" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="A0004" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="A0005" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="A0006" xml:space="preserve">
+    <value>放棄</value>
+  </data>
+  <data name="A0007" xml:space="preserve">
+    <value>&lt;font color="Red"&gt;*&lt;/font&gt;</value>
+  </data>
+  <data name="A0008" xml:space="preserve">
+    <value>「&lt;font color="Red"&gt;*&lt;/font&gt;」號的項目為必填項目</value>
+  </data>
+  <data name="A0009" xml:space="preserve">
+    <value>尚未選取任何資料。</value>
+  </data>
+  <data name="A0010" xml:space="preserve">
+    <value>是否刪除選取資料?</value>
+  </data>
+  <data name="A0011" xml:space="preserve">
+    <value>使用者操作成功！</value>
+  </data>
+  <data name="A0012" xml:space="preserve">
+    <value>必填</value>
+  </data>
+  <data name="A0013" xml:space="preserve">
+    <value>請問您是否確定放棄?</value>
+  </data>
+  <data name="A0014" xml:space="preserve">
+    <value>所在位置：</value>
+  </data>
+  <data name="A0015" xml:space="preserve">
+    <value>不再顯示此訊息</value>
+  </data>
+  <data name="A0016" xml:space="preserve">
+    <value>開啟組織樹</value>
+  </data>
+  <data name="A0017" xml:space="preserve">
+    <value>隱藏組織數</value>
+  </data>
+  <data name="A0018" xml:space="preserve">
+    <value>請選擇</value>
+  </data>
+  <data name="A0019" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="A0020" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="A0021" xml:space="preserve">
+    <value>備註</value>
+  </data>
+  <data name="A0022" xml:space="preserve">
+    <value>請輸入必填欄位</value>
+  </data>
+  <data name="A0023" xml:space="preserve">
+    <value>是否確定刪除此筆資料?</value>
+  </data>
+  <data name="A0024" xml:space="preserve">
+    <value>檔案上傳</value>
+  </data>
+  <data name="A0025" xml:space="preserve">
+    <value>加入</value>
+  </data>
+  <data name="A0026" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="A0027" xml:space="preserve">
+    <value>請輸入您要搜尋的資料</value>
+  </data>
+  <data name="A0028" xml:space="preserve">
+    <value>使用者操作失敗，請重新執行！</value>
+  </data>
+  <data name="A0029" xml:space="preserve">
+    <value>資料檢核失敗，請重新確認！</value>
+  </data>
+  <data name="A0030" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="A0031" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="A0032" xml:space="preserve">
+    <value>點我..</value>
+  </data>
+  <data name="A0033" xml:space="preserve">
+    <value>正在驗證，請等待</value>
+  </data>
+  <data name="A0034" xml:space="preserve">
+    <value>使用者帳號</value>
+  </data>
+  <data name="A0035" xml:space="preserve">
+    <value>使用者密碼</value>
+  </data>
+  <data name="A0036" xml:space="preserve">
+    <value>查詢</value>
+  </data>
+  <data name="A0037" xml:space="preserve">
+    <value>瀏覽</value>
+  </data>
+  <data name="A0038" xml:space="preserve">
+    <value>關閉視窗</value>
+  </data>
+  <data name="A0039" xml:space="preserve">
+    <value>刪除檔案</value>
+  </data>
+  <data name="A0040" xml:space="preserve">
+    <value>檔案名稱</value>
+  </data>
+  <data name="A0041" xml:space="preserve">
+    <value>上傳狀態</value>
+  </data>
+  <data name="A0042" xml:space="preserve">
+    <value>上傳進度</value>
+  </data>
+  <data name="A0043" xml:space="preserve">
+    <value>是否確定刪除檔案?</value>
+  </data>
+  <data name="A0044" xml:space="preserve">
+    <value>檔案不存在</value>
+  </data>
+  <data name="A0045" xml:space="preserve">
+    <value>起始日期不可大於結束日期!</value>
+  </data>
+  <data name="A0046" xml:space="preserve">
+    <value>請輸入開始日期!</value>
+  </data>
+  <data name="A0047" xml:space="preserve">
+    <value>請輸入結束日期!</value>
+  </data>
+  <data name="A0048" xml:space="preserve">
+    <value>查無資料，請重新查詢。</value>
+  </data>
+  <data name="A0049" xml:space="preserve">
+    <value>檔案上傳成功</value>
+  </data>
+  <data name="A0050" xml:space="preserve">
+    <value>檔案大小不能超過</value>
+  </data>
+  <data name="A0051" xml:space="preserve">
+    <value>只能上傳附檔名是#ReplaceString#的檔案</value>
+  </data>
+  <data name="A0052" xml:space="preserve">
+    <value>&lt;font color="red"&gt;無資料符合搜尋條件，請重新設定搜尋條件&lt;/font&gt;</value>
+  </data>
+  <data name="A0053" xml:space="preserve">
+    <value>匯出</value>
+  </data>
+  <data name="A0054" xml:space="preserve">
+    <value>匯入</value>
+  </data>
+  <data name="A0055" xml:space="preserve">
+    <value>移出</value>
+  </data>
+  <data name="A0056" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="A0057" xml:space="preserve">
+    <value>檔案上傳欄位需請您輸入資訊</value>
+  </data>
+  <data name="B0001" xml:space="preserve">
+    <value>停權</value>
+  </data>
+  <data name="B0002" xml:space="preserve">
+    <value>密碼重置</value>
+  </data>
+  <data name="B0003" xml:space="preserve">
+    <value>啟用</value>
+  </data>
+  <data name="B0004" xml:space="preserve">
+    <value>使用者資料-新增</value>
+  </data>
+  <data name="B0005" xml:space="preserve">
+    <value>群  組</value>
+  </data>
+  <data name="B0006" xml:space="preserve">
+    <value>使用者帳號</value>
+  </data>
+  <data name="B0007" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="B0008" xml:space="preserve">
+    <value>職稱</value>
+  </data>
+  <data name="B0009" xml:space="preserve">
+    <value>密碼變更時間</value>
+  </data>
+  <data name="B0010" xml:space="preserve">
+    <value>權限等級</value>
+  </data>
+  <data name="B0011" xml:space="preserve">
+    <value>啟用帳號</value>
+  </data>
+  <data name="B0012" xml:space="preserve">
+    <value>所屬群組</value>
+  </data>
+  <data name="B0013" xml:space="preserve">
+    <value>密碼類別</value>
+  </data>
+  <data name="B0014" xml:space="preserve">
+    <value>語音查詢帳號</value>
+  </data>
+  <data name="B0015" xml:space="preserve">
+    <value>權限微調</value>
+  </data>
+  <data name="B0016" xml:space="preserve">
+    <value>功能名稱 / 角色名稱</value>
+  </data>
+  <data name="B0017" xml:space="preserve">
+    <value>請輸入使用者帳號或姓名</value>
+  </data>
+  <data name="B0018" xml:space="preserve">
+    <value>此分行不存在或無權限新增此分行使用者</value>
+  </data>
+  <data name="B0019" xml:space="preserve">
+    <value>語音帳號只能輸入 0~9 數字</value>
+  </data>
+  <data name="B0020" xml:space="preserve">
+    <value>語音帳號重覆，請重新輸入。</value>
+  </data>
+  <data name="B0021" xml:space="preserve">
+    <value>使用者資料-修改</value>
+  </data>
+  <data name="B0022" xml:space="preserve">
+    <value>廠商名稱</value>
+  </data>
+  <data name="B0023" xml:space="preserve">
+    <value>廠商類別</value>
+  </data>
+  <data name="B0024" xml:space="preserve">
+    <value>廠商代號</value>
+  </data>
+  <data name="B0025" xml:space="preserve">
+    <value>分處名稱</value>
+  </data>
+  <data name="B0026" xml:space="preserve">
+    <value>合約期間</value>
+  </data>
+  <data name="B0027" xml:space="preserve">
+    <value>廠商#ReplaceString#尚有分處資料存在，無法刪除。</value>
+  </data>
+  <data name="B0028" xml:space="preserve">
+    <value>廠商資料維護-新增</value>
+  </data>
+  <data name="B0029" xml:space="preserve">
+    <value>廠商資料維護-修改</value>
+  </data>
+  <data name="B0030" xml:space="preserve">
+    <value>總公司</value>
+  </data>
+  <data name="B0031" xml:space="preserve">
+    <value>分處</value>
+  </data>
+  <data name="B0032" xml:space="preserve">
+    <value>合約期間起</value>
+  </data>
+  <data name="B0033" xml:space="preserve">
+    <value>合約期間迄</value>
+  </data>
+  <data name="B0034" xml:space="preserve">
+    <value>聯絡人資料</value>
+  </data>
+  <data name="B0035" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="B0036" xml:space="preserve">
+    <value>聯絡人</value>
+  </data>
+  <data name="B0037" xml:space="preserve">
+    <value>聯絡電話</value>
+  </data>
+  <data name="B0038" xml:space="preserve">
+    <value>聯絡人E-Mail</value>
+  </data>
+  <data name="B0039" xml:space="preserve">
+    <value>電話只能輸入 0~9, (, ), -, #</value>
+  </data>
+  <data name="B0040" xml:space="preserve">
+    <value>Mail格式錯誤</value>
+  </data>
+  <data name="B0041" xml:space="preserve">
+    <value>請輸入「聯絡人姓名」</value>
+  </data>
+  <data name="B0042" xml:space="preserve">
+    <value>請輸入聯絡人「電話」或「E-mail」</value>
+  </data>
+  <data name="B0043" xml:space="preserve">
+    <value>永久有效</value>
+  </data>
+  <data name="B0044" xml:space="preserve">
+    <value>定期變更</value>
+  </data>
+  <data name="B0045" xml:space="preserve">
+    <value>群組資料-新增</value>
+  </data>
+  <data name="B0046" xml:space="preserve">
+    <value>群組資料-修改</value>
+  </data>
+  <data name="B0047" xml:space="preserve">
+    <value>代碼</value>
+  </data>
+  <data name="B0048" xml:space="preserve">
+    <value>此「群組代碼」已存在，請重新輸入</value>
+  </data>
+  <data name="B0049" xml:space="preserve">
+    <value>查無此群組或您權限不足無法新增「#ReplaceString#」以下群組</value>
+  </data>
+  <data name="B0050" xml:space="preserve">
+    <value>請輸入群組代號或名稱</value>
+  </data>
+  <data name="B0051" xml:space="preserve">
+    <value>群組代號</value>
+  </data>
+  <data name="B0052" xml:space="preserve">
+    <value>群組名稱</value>
+  </data>
+  <data name="B0053" xml:space="preserve">
+    <value>群組數量</value>
+  </data>
+  <data name="B0054" xml:space="preserve">
+    <value>聯絡人人數</value>
+  </data>
+  <data name="B0055" xml:space="preserve">
+    <value>仍有使用者，不可刪除</value>
+  </data>
+  <data name="B0056" xml:space="preserve">
+    <value>仍有子群組，不可刪除</value>
+  </data>
+  <data name="B0057" xml:space="preserve">
+    <value>刪除成功</value>
+  </data>
+  <data name="B0058" xml:space="preserve">
+    <value>聯絡人資料-新增</value>
+  </data>
+  <data name="B0059" xml:space="preserve">
+    <value>聯絡人資料-修改</value>
+  </data>
+  <data name="B0060" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="B0061" xml:space="preserve">
+    <value>關鍵字搜尋</value>
+  </data>
+  <data name="B0062" xml:space="preserve">
+    <value>待選擇群組</value>
+  </data>
+  <data name="B0063" xml:space="preserve">
+    <value>已選擇群組</value>
+  </data>
+  <data name="B0064" xml:space="preserve">
+    <value>※注意：按 Ctrl + 滑鼠左鍵可多選</value>
+  </data>
+  <data name="B0065" xml:space="preserve">
+    <value>聯絡方式</value>
+  </data>
+  <data name="B0066" xml:space="preserve">
+    <value>聯絡人刪除成功</value>
+  </data>
+  <data name="B0067" xml:space="preserve">
+    <value>仍有設備，不可刪除</value>
+  </data>
+  <data name="B0068" xml:space="preserve">
+    <value>使用者帳號重覆，請重新輸入。</value>
+  </data>
+  <data name="B0069" xml:space="preserve">
+    <value>使用者帳號只能輸入A~Z、0~9、­_、-及.符號 </value>
+  </data>
+  <data name="B0070" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="B0071" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="B0072" xml:space="preserve">
+    <value>設備資料維護-查詢</value>
+  </data>
+  <data name="B0073" xml:space="preserve">
+    <value>設備資料維護-新增</value>
+  </data>
+  <data name="B0074" xml:space="preserve">
+    <value>設備資料維護-修改</value>
+  </data>
+  <data name="B0075" xml:space="preserve">
+    <value>設備機型</value>
+  </data>
+  <data name="B0076" xml:space="preserve">
+    <value>機號</value>
+  </data>
+  <data name="B0077" xml:space="preserve">
+    <value>連線來源</value>
+  </data>
+  <data name="B0078" xml:space="preserve">
+    <value>廠牌</value>
+  </data>
+  <data name="B0079" xml:space="preserve">
+    <value>設備功能</value>
+  </data>
+  <data name="B0080" xml:space="preserve">
+    <value>設備系統</value>
+  </data>
+  <data name="B0081" xml:space="preserve">
+    <value>行內外點</value>
+  </data>
+  <data name="B0082" xml:space="preserve">
+    <value>設備狀態</value>
+  </data>
+  <data name="B0083" xml:space="preserve">
+    <value>裝機日期</value>
+  </data>
+  <data name="B0084" xml:space="preserve">
+    <value>啟用日期</value>
+  </data>
+  <data name="B0085" xml:space="preserve">
+    <value>報廢日期</value>
+  </data>
+  <data name="B0086" xml:space="preserve">
+    <value>維護廠商</value>
+  </data>
+  <data name="B0087" xml:space="preserve">
+    <value>補鈔保全</value>
+  </data>
+  <data name="B0088" xml:space="preserve">
+    <value>系統保全</value>
+  </data>
+  <data name="B0089" xml:space="preserve">
+    <value>主機前端</value>
+  </data>
+  <data name="B0090" xml:space="preserve">
+    <value>主機後端</value>
+  </data>
+  <data name="B0091" xml:space="preserve">
+    <value>行內</value>
+  </data>
+  <data name="B0092" xml:space="preserve">
+    <value>行外</value>
+  </data>
+  <data name="B0093" xml:space="preserve">
+    <value>加入監控</value>
+  </data>
+  <data name="B0094" xml:space="preserve">
+    <value>移出監控</value>
+  </data>
+  <data name="B0095" xml:space="preserve">
+    <value>移機</value>
+  </data>
+  <data name="B0096" xml:space="preserve">
+    <value>撤機</value>
+  </data>
+  <data name="B0097" xml:space="preserve">
+    <value>復機</value>
+  </data>
+  <data name="B0098" xml:space="preserve">
+    <value>報廢</value>
+  </data>
+  <data name="B0099" xml:space="preserve">
+    <value>購置日期</value>
+  </data>
+  <data name="B0100" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="B0101" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="B0102" xml:space="preserve">
+    <value>歷史資料</value>
+  </data>
+  <data name="B0103" xml:space="preserve">
+    <value>詳細地址</value>
+  </data>
+  <data name="B0104" xml:space="preserve">
+    <value>採購案號</value>
+  </data>
+  <data name="B0105" xml:space="preserve">
+    <value>異動日期</value>
+  </data>
+  <data name="B0106" xml:space="preserve">
+    <value>裝機</value>
+  </data>
+  <data name="B0107" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="B0108" xml:space="preserve">
+    <value>設備:#ReplaceString#監控中，無法刪除</value>
+  </data>
+  <data name="B0109" xml:space="preserve">
+    <value>注意，若刪除此資料，相關資料將會一併刪除，並且無法恢復&lt;br&gt;請問您是否確定刪除選取資料?</value>
+  </data>
+  <data name="B0110" xml:space="preserve">
+    <value>請問您是否確定將所選的設備”加入監控”?</value>
+  </data>
+  <data name="B0111" xml:space="preserve">
+    <value>請問您是否確定將所選的設備”移出監控”?</value>
+  </data>
+  <data name="B0112" xml:space="preserve">
+    <value>請問您是否確定將所選的設備”移機”?</value>
+  </data>
+  <data name="B0113" xml:space="preserve">
+    <value>請問您是否確定將所選的設備”徹機”?</value>
+  </data>
+  <data name="B0114" xml:space="preserve">
+    <value>請問您是否確定將所選的設備”復機”?</value>
+  </data>
+  <data name="B0115" xml:space="preserve">
+    <value>請問您是否確定將所選的設備”報廢”?</value>
+  </data>
+  <data name="B0116" xml:space="preserve">
+    <value>設備:#ReplaceString#為歷史資料，不可變更!</value>
+  </data>
+  <data name="B0117" xml:space="preserve">
+    <value>該設備#ReplaceString#已有相同「群組、機號、機型」存在，無法移機!</value>
+  </data>
+  <data name="B0118" xml:space="preserve">
+    <value>該設備#ReplaceString#已有相同「群組、機號、機型」存在，無法復機!</value>
+  </data>
+  <data name="B0119" xml:space="preserve">
+    <value>設備:#ReplaceString#加入監控成功!</value>
+  </data>
+  <data name="B0120" xml:space="preserve">
+    <value>設備:#ReplaceString#移出監控成功!</value>
+  </data>
+  <data name="B0121" xml:space="preserve">
+    <value>設備:#ReplaceString#移機成功!</value>
+  </data>
+  <data name="B0122" xml:space="preserve">
+    <value>設備:#ReplaceString#徹機成功!</value>
+  </data>
+  <data name="B0123" xml:space="preserve">
+    <value>設備:#ReplaceString#復機成功!</value>
+  </data>
+  <data name="B0124" xml:space="preserve">
+    <value>設備:#ReplaceString#報廢成功!</value>
+  </data>
+  <data name="B0125" xml:space="preserve">
+    <value>專線連線速度</value>
+  </data>
+  <data name="B0126" xml:space="preserve">
+    <value>營運時間</value>
+  </data>
+  <data name="B0127" xml:space="preserve">
+    <value>監控狀態</value>
+  </data>
+  <data name="B0128" xml:space="preserve">
+    <value>廠商資料</value>
+  </data>
+  <data name="B0129" xml:space="preserve">
+    <value>資產資料</value>
+  </data>
+  <data name="B0130" xml:space="preserve">
+    <value>軟體派送資料</value>
+  </data>
+  <data name="B0131" xml:space="preserve">
+    <value>軟派頻寬限制</value>
+  </data>
+  <data name="B0132" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="B0133" xml:space="preserve">
+    <value>此分行不存在或無權限新增此分行設備</value>
+  </data>
+  <data name="B0134" xml:space="preserve">
+    <value>設備只能輸入 A~Z、0~9</value>
+  </data>
+  <data name="B0135" xml:space="preserve">
+    <value>IP只能輸入 0~254 數字</value>
+  </data>
+  <data name="B0136" xml:space="preserve">
+    <value>基本資料維護</value>
+  </data>
+  <data name="B0137" xml:space="preserve">
+    <value>使用者資料維護</value>
+  </data>
+  <data name="B0138" xml:space="preserve">
+    <value>設備資料維護</value>
+  </data>
+  <data name="B0139" xml:space="preserve">
+    <value>組織架構維護</value>
+  </data>
+  <data name="B0140" xml:space="preserve">
+    <value>代碼僅只能輸入英文、數字、_</value>
+  </data>
+  <data name="B0141" xml:space="preserve">
+    <value>廠商資料維護</value>
+  </data>
+  <data name="B0142" xml:space="preserve">
+    <value>廠商代號只能輸入A~Z、0~9、_、-及.符號</value>
+  </data>
+  <data name="B0143" xml:space="preserve">
+    <value>廠商代號已存在，請重新輸入!</value>
+  </data>
+  <data name="B0144" xml:space="preserve">
+    <value>監控提示詞</value>
+  </data>
+  <data name="B0145" xml:space="preserve">
+    <value>設備:#ReplaceString#已有相同「群組、機號、機型」存在，是否確定新增?</value>
+  </data>
+  <data name="B0146" xml:space="preserve">
+    <value>此IP:「#ReplaceString#」已存在，請重新輸入</value>
+  </data>
+  <data name="B0147" xml:space="preserve">
+    <value>請問您是否確定此設備”報廢”?</value>
+  </data>
+  <data name="B0148" xml:space="preserve">
+    <value>主機前端之設備，IP不能為「0.0.0.0」</value>
+  </data>
+  <data name="B0149" xml:space="preserve">
+    <value>新增聯絡人</value>
+  </data>
+  <data name="B0150" xml:space="preserve">
+    <value>新增群組</value>
+  </data>
+  <data name="B0151" xml:space="preserve">
+    <value>刪除聯絡人</value>
+  </data>
+  <data name="B0152" xml:space="preserve">
+    <value>刪除群組</value>
+  </data>
+  <data name="B0153" xml:space="preserve">
+    <value>請輸入要搜尋的聯絡人姓名</value>
+  </data>
+  <data name="B0154" xml:space="preserve">
+    <value>版本代號</value>
+  </data>
+  <data name="B0155" xml:space="preserve">
+    <value>版本描述</value>
+  </data>
+  <data name="B0156" xml:space="preserve">
+    <value>建立時間</value>
+  </data>
+  <data name="B0157" xml:space="preserve">
+    <value>建立人員</value>
+  </data>
+  <data name="B0158" xml:space="preserve">
+    <value>部署</value>
+  </data>
+  <data name="B0159" xml:space="preserve">
+    <value>取回程式清單</value>
+  </data>
+  <data name="B0160" xml:space="preserve">
+    <value>資訊安全管理-新增</value>
+  </data>
+  <data name="B0161" xml:space="preserve">
+    <value>選擇機器</value>
+  </data>
+  <data name="B0162" xml:space="preserve">
+    <value>合法執行程式名單</value>
+  </data>
+  <data name="B0163" xml:space="preserve">
+    <value>程式功能說明</value>
+  </data>
+  <data name="B0164" xml:space="preserve">
+    <value>程式名稱及路徑</value>
+  </data>
+  <data name="B0165" xml:space="preserve">
+    <value>程式版本</value>
+  </data>
+  <data name="B0166" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="B0167" xml:space="preserve">
+    <value>僅只能輸入英文、數字、_、-、.</value>
+  </data>
+  <data name="B0168" xml:space="preserve">
+    <value>僅能輸入0~9、.</value>
+  </data>
+  <data name="B0169" xml:space="preserve">
+    <value>僅能輸入K、M、B、0~9、.</value>
+  </data>
+  <data name="B0170" xml:space="preserve">
+    <value>包版動作失敗!!錯誤訊息:#ReplaceString#</value>
+  </data>
+  <data name="B0171" xml:space="preserve">
+    <value>取得合法執行程式時間</value>
+  </data>
+  <data name="B0172" xml:space="preserve">
+    <value>資訊安全管理-修改</value>
+  </data>
+  <data name="B0173" xml:space="preserve">
+    <value>資料正在處理中，請勿關閉本視窗…</value>
+  </data>
+  <data name="B0174" xml:space="preserve">
+    <value>機型</value>
+  </data>
+  <data name="B0175" xml:space="preserve">
+    <value>軟體派送群組</value>
+  </data>
+  <data name="B0176" xml:space="preserve">
+    <value>未選取的設備資料</value>
+  </data>
+  <data name="B0177" xml:space="preserve">
+    <value>已選取的設備資料</value>
+  </data>
+  <data name="B0178" xml:space="preserve">
+    <value>共#ReplaceString#筆資料</value>
+  </data>
+  <data name="B0179" xml:space="preserve">
+    <value>部署代號</value>
+  </data>
+  <data name="B0180" xml:space="preserve">
+    <value>部署時間</value>
+  </data>
+  <data name="B0181" xml:space="preserve">
+    <value>部署人員</value>
+  </data>
+  <data name="B0182" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="B0183" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="B0184" xml:space="preserve">
+    <value>總台數</value>
+  </data>
+  <data name="B0185" xml:space="preserve">
+    <value>部署紀錄</value>
+  </data>
+  <data name="B0186" xml:space="preserve">
+    <value>部署結果</value>
+  </data>
+  <data name="B0187" xml:space="preserve">
+    <value>部署內容</value>
+  </data>
+  <data name="B0188" xml:space="preserve">
+    <value>部署完成時間</value>
+  </data>
+  <data name="B0189" xml:space="preserve">
+    <value>製版日期</value>
+  </data>
+  <data name="B0190" xml:space="preserve">
+    <value>製版人員</value>
+  </data>
+  <data name="B0191" xml:space="preserve">
+    <value>資訊安全管理</value>
+  </data>
+  <data name="B0192" xml:space="preserve">
+    <value>資訊安全管理-刪除</value>
+  </data>
+  <data name="B0193" xml:space="preserve">
+    <value>部署紀錄新增</value>
+  </data>
+  <data name="B0194" xml:space="preserve">
+    <value>部署紀錄刪除</value>
+  </data>
+  <data name="B0195" xml:space="preserve">
+    <value>設備: #ReplaceString#加入監控失敗</value>
+  </data>
+  <data name="B0196" xml:space="preserve">
+    <value>LineStatus已存在相同AccountID</value>
+  </data>
+  <data name="B0197" xml:space="preserve">
+    <value>SecurityRelation已存在相同AccountID</value>
+  </data>
+  <data name="B0198" xml:space="preserve">
+    <value>MCData_SD已存在相同IP</value>
+  </data>
+  <data name="B0199" xml:space="preserve">
+    <value>設備:#ReplaceString#已有相同「群組、機號、機型」存在，是否確定修改?</value>
+  </data>
+  <data name="B0200" xml:space="preserve">
+    <value>設備:#ReplaceString# 新增成功!</value>
+  </data>
+  <data name="B0201" xml:space="preserve">
+    <value>設備:#ReplaceString# 修改成功!</value>
+  </data>
+  <data name="B0202" xml:space="preserve">
+    <value>設備:#ReplaceString#刪除成功!</value>
+  </data>
+  <data name="C0001" xml:space="preserve">
+    <value>使用者密碼變更-修改</value>
+  </data>
+  <data name="C0002" xml:space="preserve">
+    <value>分行代號</value>
+  </data>
+  <data name="C0003" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="C0004" xml:space="preserve">
+    <value>密碼類別</value>
+  </data>
+  <data name="C0005" xml:space="preserve">
+    <value>舊密碼</value>
+  </data>
+  <data name="C0006" xml:space="preserve">
+    <value>新密碼</value>
+  </data>
+  <data name="C0007" xml:space="preserve">
+    <value>再次輸入新密碼</value>
+  </data>
+  <data name="C0008" xml:space="preserve">
+    <value>網頁密碼</value>
+  </data>
+  <data name="C0009" xml:space="preserve">
+    <value>語音密碼</value>
+  </data>
+  <data name="C0010" xml:space="preserve">
+    <value>新密碼不符合，請再一次確認</value>
+  </data>
+  <data name="C0011" xml:space="preserve">
+    <value>密碼常度必須介於 #ReplaceString1# ~ #ReplaceString2# 碼之間</value>
+  </data>
+  <data name="C0012" xml:space="preserve">
+    <value>語音密碼必須為0~9數字</value>
+  </data>
+  <data name="C0013" xml:space="preserve">
+    <value>新密碼不可與前#ReplaceString#次重覆</value>
+  </data>
+  <data name="C0014" xml:space="preserve">
+    <value>舊密碼錯誤，請再試一次</value>
+  </data>
+  <data name="D0001" xml:space="preserve">
+    <value>選擇模組</value>
+  </data>
+  <data name="D0002" xml:space="preserve">
+    <value>加入</value>
+  </data>
+  <data name="D0003" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="D0004" xml:space="preserve">
+    <value>設備機型維護-新增</value>
+  </data>
+  <data name="D0005" xml:space="preserve">
+    <value>設備機型維護-修改</value>
+  </data>
+  <data name="D0006" xml:space="preserve">
+    <value>設備類型</value>
+  </data>
+  <data name="D0007" xml:space="preserve">
+    <value>廠牌</value>
+  </data>
+  <data name="D0008" xml:space="preserve">
+    <value>機型</value>
+  </data>
+  <data name="D0009" xml:space="preserve">
+    <value>機型說明</value>
+  </data>
+  <data name="D0010" xml:space="preserve">
+    <value>系統狀態</value>
+  </data>
+  <data name="D0011" xml:space="preserve">
+    <value>狀態名稱</value>
+  </data>
+  <data name="D0012" xml:space="preserve">
+    <value>代表圖示</value>
+  </data>
+  <data name="D0013" xml:space="preserve">
+    <value>狀態碼</value>
+  </data>
+  <data name="D0014" xml:space="preserve">
+    <value>模組清單</value>
+  </data>
+  <data name="D0015" xml:space="preserve">
+    <value>模組選擇</value>
+  </data>
+  <data name="D0016" xml:space="preserve">
+    <value>模組名稱</value>
+  </data>
+  <data name="D0017" xml:space="preserve">
+    <value>模組描述</value>
+  </data>
+  <data name="D0018" xml:space="preserve">
+    <value>無此設備類型，請重新選取！</value>
+  </data>
+  <data name="D0019" xml:space="preserve">
+    <value>無此廠商，請重選取！</value>
+  </data>
+  <data name="D0020" xml:space="preserve">
+    <value>系統狀態代表圖示</value>
+  </data>
+  <data name="D0021" xml:space="preserve">
+    <value>模組基本資料-新增</value>
+  </data>
+  <data name="D0022" xml:space="preserve">
+    <value>模組基本資料-修改</value>
+  </data>
+  <data name="D0023" xml:space="preserve">
+    <value>模組狀態</value>
+  </data>
+  <data name="D0024" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="D0025" xml:space="preserve">
+    <value>此設備模組已存在，請重新輸入</value>
+  </data>
+  <data name="D0026" xml:space="preserve">
+    <value>請輸入模組狀態名稱</value>
+  </data>
+  <data name="D0027" xml:space="preserve">
+    <value>模組狀態圖示</value>
+  </data>
+  <data name="D0028" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="D0029" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="D0030" xml:space="preserve">
+    <value>功能名稱 / 角色名稱</value>
+  </data>
+  <data name="D0031" xml:space="preserve">
+    <value>模組正常</value>
+  </data>
+  <data name="D0032" xml:space="preserve">
+    <value>模組異常</value>
+  </data>
+  <data name="D0033" xml:space="preserve">
+    <value>模組警示</value>
+  </data>
+  <data name="D0034" xml:space="preserve">
+    <value>系統管理</value>
+  </data>
+  <data name="D0035" xml:space="preserve">
+    <value>設備機型維護</value>
+  </data>
+  <data name="D0036" xml:space="preserve">
+    <value>設備模組維護</value>
+  </data>
+  <data name="D0037" xml:space="preserve">
+    <value>系統辭庫設定-新增</value>
+  </data>
+  <data name="D0038" xml:space="preserve">
+    <value>辭庫類別</value>
+  </data>
+  <data name="D0039" xml:space="preserve">
+    <value>正體中文</value>
+  </data>
+  <data name="D0040" xml:space="preserve">
+    <value>簡體中文</value>
+  </data>
+  <data name="D0041" xml:space="preserve">
+    <value>英文</value>
+  </data>
+  <data name="D0042" xml:space="preserve">
+    <value>日文</value>
+  </data>
+  <data name="D0043" xml:space="preserve">
+    <value>共用</value>
+  </data>
+  <data name="D0044" xml:space="preserve">
+    <value>基本資料維護</value>
+  </data>
+  <data name="D0045" xml:space="preserve">
+    <value>個人資料維護</value>
+  </data>
+  <data name="D0046" xml:space="preserve">
+    <value>軟體派送</value>
+  </data>
+  <data name="D0047" xml:space="preserve">
+    <value>通報排程維護</value>
+  </data>
+  <data name="D0048" xml:space="preserve">
+    <value>設備狀態監控</value>
+  </data>
+  <data name="D0049" xml:space="preserve">
+    <value>此辭彙已存在</value>
+  </data>
+  <data name="D0050" xml:space="preserve">
+    <value>請輸入「正體中文」內容</value>
+  </data>
+  <data name="D0051" xml:space="preserve">
+    <value>請選擇「辭庫類別」</value>
+  </data>
+  <data name="D0052" xml:space="preserve">
+    <value>關鍵字</value>
+  </data>
+  <data name="D0053" xml:space="preserve">
+    <value>辭庫代碼</value>
+  </data>
+  <data name="D0054" xml:space="preserve">
+    <value>最後修改時間</value>
+  </data>
+  <data name="D0055" xml:space="preserve">
+    <value>可管理角色 / 角色名稱</value>
+  </data>
+  <data name="D0056" xml:space="preserve">
+    <value>系統辭庫設定-匯入</value>
+  </data>
+  <data name="E0001" xml:space="preserve">
+    <value>軟體派送維護</value>
+  </data>
+  <data name="E0002" xml:space="preserve">
+    <value>檔案類別管理</value>
+  </data>
+  <data name="E0003" xml:space="preserve">
+    <value>檔案類別設定-修改</value>
+  </data>
+  <data name="E0004" xml:space="preserve">
+    <value>設備類型</value>
+  </data>
+  <data name="E0005" xml:space="preserve">
+    <value>廠牌</value>
+  </data>
+  <data name="E0006" xml:space="preserve">
+    <value>機型</value>
+  </data>
+  <data name="E0007" xml:space="preserve">
+    <value>檔案類型</value>
+  </data>
+  <data name="E0008" xml:space="preserve">
+    <value>檔案路徑格示描述</value>
+  </data>
+  <data name="E0009" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="E0010" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="E0011" xml:space="preserve">
+    <value>檔案路徑格式描述說明：年、月、日須以%符號區格&lt;br&gt;例如：C:\ATM.Log\20101104_EJ.ATM → C:\ATM.</value>
+  </data>
+  <data name="G0001" xml:space="preserve">
+    <value>大圖模式監控</value>
+  </data>
+  <data name="G0002" xml:space="preserve">
+    <value>基本</value>
+  </data>
+  <data name="G0003" xml:space="preserve">
+    <value>進階</value>
+  </data>
+  <data name="G0004" xml:space="preserve">
+    <value>營業狀態異常</value>
+  </data>
+  <data name="G0005" xml:space="preserve">
+    <value>模組狀態異常</value>
+  </data>
+  <data name="G0006" xml:space="preserve">
+    <value>鈔卷狀態異常</value>
+  </data>
+  <data name="G0007" xml:space="preserve">
+    <value>狀態未明</value>
+  </data>
+  <data name="G0008" xml:space="preserve">
+    <value>營業中</value>
+  </data>
+  <data name="G0009" xml:space="preserve">
+    <value>營業中(設備異常)</value>
+  </data>
+  <data name="G0010" xml:space="preserve">
+    <value>行員維護</value>
+  </data>
+  <data name="G0011" xml:space="preserve">
+    <value>非營業中</value>
+  </data>
+  <data name="G0012" xml:space="preserve">
+    <value>分行</value>
+  </data>
+  <data name="G0013" xml:space="preserve">
+    <value>功能選單</value>
+  </data>
+  <data name="G0014" xml:space="preserve">
+    <value>在新視窗開啟詳細資訊</value>
+  </data>
+  <data name="G0015" xml:space="preserve">
+    <value>重新整理</value>
+  </data>
+  <data name="G0016" xml:space="preserve">
+    <value>暫停營業</value>
+  </data>
+  <data name="G0017" xml:space="preserve">
+    <value>開機營業</value>
+  </data>
+  <data name="G0018" xml:space="preserve">
+    <value>重新啟動</value>
+  </data>
+  <data name="G0019" xml:space="preserve">
+    <value>關閉選單</value>
+  </data>
+  <data name="G0020" xml:space="preserve">
+    <value>機號</value>
+  </data>
+  <data name="G0021" xml:space="preserve">
+    <value>廠牌</value>
+  </data>
+  <data name="G0022" xml:space="preserve">
+    <value>機型</value>
+  </data>
+  <data name="G0023" xml:space="preserve">
+    <value>系統版本</value>
+  </data>
+  <data name="G0024" xml:space="preserve">
+    <value>DMSAgent系統版本</value>
+  </data>
+  <data name="G0025" xml:space="preserve">
+    <value>廣告版本</value>
+  </data>
+  <data name="G0026" xml:space="preserve">
+    <value>連線來源</value>
+  </data>
+  <data name="G0027" xml:space="preserve">
+    <value>營運時間</value>
+  </data>
+  <data name="G0028" xml:space="preserve">
+    <value>維護廠商</value>
+  </data>
+  <data name="G0029" xml:space="preserve">
+    <value>保全廠商</value>
+  </data>
+  <data name="G0030" xml:space="preserve">
+    <value>設備功能</value>
+  </data>
+  <data name="G0031" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="G0032" xml:space="preserve">
+    <value>行內外點</value>
+  </data>
+  <data name="G0033" xml:space="preserve">
+    <value>營業中(設備異常)</value>
+  </data>
+  <data name="G0034" xml:space="preserve">
+    <value>非營業中(行員維護)</value>
+  </data>
+  <data name="G0035" xml:space="preserve">
+    <value>非營業中(與HOST斷線)</value>
+  </data>
+  <data name="G0036" xml:space="preserve">
+    <value>非營業中(設備異常)</value>
+  </data>
+  <data name="G0037" xml:space="preserve">
+    <value>非營業中(其他狀態)</value>
+  </data>
+  <data name="G0038" xml:space="preserve">
+    <value>上門開啟</value>
+  </data>
+  <data name="G0039" xml:space="preserve">
+    <value>金庫門開啟</value>
+  </data>
+  <data name="G0040" xml:space="preserve">
+    <value>缺鈔</value>
+  </data>
+  <data name="G0041" xml:space="preserve">
+    <value>小時未提款(CWD)交易</value>
+  </data>
+  <data name="G0042" xml:space="preserve">
+    <value>查無設備資料!!</value>
+  </data>
+  <data name="G0043" xml:space="preserve">
+    <value>設備IP</value>
+  </data>
+</root>

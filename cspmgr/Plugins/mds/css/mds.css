@@ -1,0 +1,155 @@
+﻿body {
+}
+/*通用字型設定*/
+  *, h1, h2, h3, h4, h5 { font-family: 微軟正黑體,Microsoft JhengHei,Comic Sans MS,arial,helvetica,sans-serif; }
+  
+/*游標切換 */
+.cursor-pointer{cursor:pointer;}
+.cursor-croshair{cursor: crosshair;}
+.cursor-eresize{cursor: e-resize;}
+.cursor-move{cursor: move;}
+
+/*通用欄位驗證錯誤訊息*/
+.validator-error{color:#a94442;}
+/*通用欄位驗證錯誤底色*/
+.validator-error-background{background-color:rgba(209, 110, 108, 0.3) !important;}
+
+/* 唯讀資料 */
+input[disabled],input:disabled,
+.form-group input[disabled], .form-group input:disabled,
+select[disabled] {
+  color: #312F2F !important;
+  background-color: #eeeeee !important;
+  opacity: 1 !important;
+}
+input[type=checkbox].ace:disabled + .lbl::before,
+input[type=radio].ace:disabled + .lbl::before,
+input[type=checkbox].ace[disabled] + .lbl::before,
+input[type=radio].ace[disabled] + .lbl::before,
+input[type=checkbox].ace.disabled + .lbl::before,
+input[type=radio].ace.disabled + .lbl::before {
+  background-color: #eeeeee !important; /*#DDD*/
+  border-color: #CCC !important;
+  box-shadow: none !important;
+  color: #312F2F;
+  opacity: 1 !important;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor:default; /* not-allowed;*/
+  background-color: #eeeeee;
+  opacity: 1 !important;
+  color: black;
+}
+
+/* navbar右邊圖示換行後的位置調整 */
+@media only screen and (max-width: 479px) {
+  .navbar:not(.navbar-collapse) .ace-nav {
+    text-align: right !important;
+    background-color: rgba(0, 0, 0, 0)!important;
+    border: 0px solid rgba(0, 0, 0, 0)!important;
+    border-width: 0px 0 0!important;
+  }
+}
+.mds-user-info {
+  max-width: 100px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: top;
+  line-height: 15px;
+  position: relative;
+  top: 6px;
+}
+.mds-user-info small {
+  display: block;
+}
+
+/* 將fancybox-loading的圖改成'外勤筋斗雲的logo'*/
+/* 會覆寫Plugins/fancybox/jquery.fancybox.css設定值 */
+#fancybox-loading {
+	background-image: url('') !important;
+	margin-left: -70px !important; /*原-22px,在手機看會偏右*/
+	opacity: 1 !important; /*原0.8,看起來會霧霧的*/
+}
+#fancybox-loading div {
+    width: 150px !important;
+	height: 150px !important;
+	background: url('../../../Images/loading/logo_100_h.gif') center center no-repeat !important;
+}
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	   only screen and (min--moz-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5){
+
+	#fancybox-loading, .fancybox-close {
+		background-image: url('') !important;
+		/*background-size: 44px 152px; The size of the normal image, half the size of the hi-res image. 44px 152px;*/
+	}
+
+	#fancybox-loading div {
+		background-image: url('../../../Images/loading/logo_100_h.gif') center center no-repeat !important;
+		/*background-size: 24px 24px; The size of the normal image, half the size of the hi-res image*/
+	}
+}
+
+/*Datatable：無排序功能的標題顏色-鐵灰*/
+.dataTable > thead > tr > th[class*=sorting_disabled] {
+    color: #707070;
+}
+/*jquery confirm 自訂顏色與對齊*/
+.jconfirm .title
+{
+    color:#000;
+}
+.jconfirm .content
+{
+    color:#000;
+    font-size:16px;
+    text-align:left;
+}
+
+/* 訊息公告：問卷查調結果統計圖的顏色 */
+.progress-bar-mdscolor01 {
+  background-color: #9585BF;
+}
+
+.progress-bar-mdscolor02 {
+  background-color: #9ABC32;
+}
+
+.progress-bar-mdscolor03 {
+  background-color: #6FB3E0;
+}
+
+.progress-bar-mdscolor04 {
+  background-color: #F79263;
+}
+
+.progress-bar-mdscolor05 {
+  background-color: #F7D05B;
+}
+
+.progress-bar-mdscolor06 {
+  background-color: #999999;
+}
+
+.progress-bar-mdscolor07 {
+  background-color: #F08080;
+}
+
+.progress-bar-mdscolor08 {
+  background-color: #FFA500;
+}
+
+.progress-bar-mdscolor09 {
+  background-color: #C71585;
+}
+
+.progress-bar-mdscolor10 {
+  background-color: #4682B4;
+}
+/* 訊息公告：問卷查調結果統計圖的顏色 ----End */

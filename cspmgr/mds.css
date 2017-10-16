@@ -1,0 +1,433 @@
+html
+{
+	/*IE 6*/
+    _overflow-x: hidden;
+}
+
+Body
+{
+	scrollbar-face-color: #6c84a9;
+	scrollbar-highlight-color: #6c84a9;
+	scrollbar-shadow-color: #d0dae9;
+	scrollbar-3dlight-color: #eaecef;
+	scrollbar-arrow-color: #d0dae9;
+	scrollbar-track-color: #dfe0e4;
+	scrollbar-darkshadow-color: #eaecef;
+	scrollbar-base-color: #fcfcfc;
+	font-size: 10pt;
+	font-family: 新細明體,Times New Roman;
+	color:black;
+	scrollbar-arrow-color: #FFFFFF;
+	margin:0px;
+	overflow:auto;
+}
+
+/*------------------左邊功能-------------*/
+/*-----左邊功能title-------*/
+.title_grey{
+	font-size:12pt;
+	color:#e7e7e7;
+	text-align:center;
+	padding-top:2px;
+
+}
+
+/*------Module Start-------------*/
+.left_buON
+{
+	background-image:url(SysImages/Menu/left_bu_on.gif); 
+	background-repeat:repeat-x; 
+	border:none;  
+	height:25px ;
+	font-size:10pt;
+}
+.left_bu
+{
+	background-image:url(SysImages/Menu/left_bu.gif); 
+	background-repeat:repeat; 
+	height:25px;
+	font-size:10pt;
+}
+.left_buOver
+{
+	background-image:url(SysImages/Menu/left_bu_over.gif); 
+	background-repeat:repeat-x; 
+	border:none; 
+	cursor:pointer; 
+	height:25px ;
+	font-size:10pt;
+}
+/*------Module End-------------*/
+
+/* menu Start */
+.menu {
+	width: 158px;
+	border-top:solid 1px #42474a;
+	border-right:solid 1px #42474a;
+	border-left:solid 1px #42474a;
+}
+
+
+.menu div {
+	margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #e0e7f2;
+    background-repeat: repeat-x;
+}
+
+.menu p {
+	margin-bottom : 0px;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+/* menu End */
+/* Function Start */
+.left_menu
+{
+	background-image:url(SysImages/Menu/menu_bg2.gif); 
+	background-repeat:repeat-y; 
+	border-top:solid 1px #FFFFFF;  
+	border-left:0px  ;
+	border-right:0px  ;
+	border-bottom:solid 1px #b2b2b2;
+	padding-left:6px;
+	color:#495664;
+	font-size:10pt;
+	cursor:pointer;
+	font-weight:normal; 
+}
+
+.left_menu_ico
+{
+	background-color:#9cbbde;
+	border-top:solid 1px #e0e7f2;  
+	border-left:solid 1px #e0e7f2;
+	border-right:0px  ;
+	border-bottom:solid 1px #908f8f;
+	cursor:pointer; 
+	width:33px;
+	height:32px;
+}
+
+.left_menu_over
+{
+	background-image:url(SysImages/Menu/menu_bg3.gif); 
+	background-repeat:repeat-y; 
+	border-top:solid 1px #FFFFFF;  
+	border-left:0px;
+	border-right:0px;
+	border-bottom:solid 1px #b2b2b2;
+	padding-left:6px;
+	color:#093d9c;
+	font-size:10pt;
+	cursor:pointer; 
+	font-weight:normal; 
+}
+/* Function End */
+
+/*---------輸入框---------*/
+.textbox
+{
+	font-size:10pt;
+	color:#134cb0;
+	border-top:solid 1px #84a5ce ;
+	border-left:solid 1px #84a5ce ;
+	border-right:solid 1px #c1d2e7 ;
+	border-bottom:solid 1px #c1d2e7 ;
+}
+/*------------標籤tag1----第一個選定中-----*/
+.tag1_on
+{
+	background-image:url(SysImages/RightPage/tag1_bu.gif); 
+	background-repeat:no-repeat;
+	width:59px; 
+	height:25px;
+	font-size:10pt;
+	color:#000000;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer; 
+}
+/*------------標籤tag1----第一個為按鈕-----*/
+.tag1_bu
+{
+	background-image:url(SysImages/RightPage/tag1_on.gif); 
+	background-repeat:no-repeat;
+	width:59px; 
+	height:25px;
+	font-size:10pt;
+	color:#e7e7e7;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;
+}
+/*------------標籤tag2----第二個以後選定中-----*/
+.tag2_on
+{
+	background-image:url(SysImages/RightPage/tag2_bu.gif); 
+	background-repeat:no-repeat;
+	width:58px; 
+	height:25px;
+	font-size:10pt;
+	color:#000000;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;	
+}
+/*------------標籤tag1----第二個以後為按鈕-----*/
+.tag2_bu
+{	
+	background-image:url(SysImages/RightPage/tag2_on.gif); 
+	background-repeat:no-repeat;
+	width:58px; 
+	height:25px;
+	font-size:10pt;
+	color:#e7e7e7;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;  
+}
+
+
+/*---------表格-----*/
+
+.table_css
+{
+	border:1px solid #93999f;
+	border-collapse:collapse;
+}
+.table_css td
+{
+	border:1px solid #93999f;
+	height:25px;
+	vertical-align:middle;
+}
+.table_left
+{
+	border:1px solid #93999f;
+	background-color:#e0e7f2;
+}
+.table_sb_title
+{
+	border:1px solid #93999f;
+	background-color:#bfd2e5;
+	font-weight:bold;
+	font-size:10pt;
+	color:#083cb4;
+	padding-left:10px;
+	
+}
+
+/*---------ToolBar-----*/
+
+.toolbar
+{
+	text-decoration: none;
+	COLOR:black;
+	cursor:pointer;
+}
+
+.toolbar image
+{
+	text-decoration: none;
+	border: 0px;
+}
+
+/*---------ListView-----*/
+
+.ColumnTitle 
+{
+	background-color: #bcd3ed;
+	border-left: WHITE 1PX SOLID;
+	border-right: GRAY 1PX SOLID;
+	border-top: WHITE 1PX SOLID;
+	border-bottom: GRAY 1PX SOLID;
+	text-align:center;
+	height:21px;
+	color:Black;
+	text-decoration: none;
+}
+
+.ColumnTitle a
+{
+	color:Black;
+	text-decoration: none;
+	vertical-align:middle;
+}
+
+/*---------單數行-----*/
+.Column_1
+{
+	cursor:pointer;
+	background-color:#eeeeee;
+}
+/*---------雙數行-----*/
+.Column_2
+{
+	cursor:pointer;
+	background-color:#ffffff;
+}
+/*---------滑鼠經過-----*/
+.Column_Over
+{
+	cursor:pointer;
+	background-color:#dbe5fa;
+}
+
+.CheckCell_Border
+{
+	border-left: WHITE 1PX SOLID;
+	border-right: GRAY 1PX SOLID;
+	border-top: WHITE 1PX SOLID;
+	border-bottom: GRAY 1PX SOLID;
+}
+
+.Cell
+{
+	padding-left:3px;
+	height:21px;
+}
+
+.Cell_Border
+{
+	border-left: WHITE 1PX SOLID;
+	border-right: GRAY 1PX SOLID;
+	border-top: WHITE 1PX SOLID;
+	border-bottom: GRAY 1PX SOLID;
+	padding-left:3px;
+	height:21px;
+}
+/*---------換頁-----*/
+.Pager
+{
+	background-color: #dde4ee;
+	border-left: white 1px solid;
+	border-right: gray 1px solid;
+	border-top: white 1px solid;
+	border-bottom: gray 1px solid;
+	text-align:center;
+	height:25px;
+	color:Black;
+	text-decoration: none;
+}
+
+.Pager a
+{
+	color:Black;
+	text-decoration: none;
+	vertical-align:middle;
+}
+
+/*--------圓按鈕移上去--------*/
+.circular_bu_over
+{
+	cursor:pointer;
+	background-color:#f8eaab;
+	border-top:1px  solid #f7eacf;
+	border-left:1px  solid #f7eacf;
+	border-bottom:1px  solid #f0db78;
+	border-right:1px  solid  #f0db78;
+}
+/*--------圓按鈕滑鼠移走--------*/
+.circular_bu
+{
+	cursor: default;
+	border-top:0px  solid #f7eacf;
+	border-left:0px  solid #f7eacf;
+	border-bottom:0px  solid #f0db78;
+	border-right:0px  solid  #f0db78;
+}
+
+/*--------一般小按鈕--------*/
+.little_bu
+{
+	cursor: pointer;
+	height:22px;
+	color:#000000;
+	font-size:10pt;
+}
+/*--------一般小按鈕 移上去字換色--------*/
+.little_bu_over
+{
+	color:#113abf;
+}
+
+/*--------右邊功能頁面Style--------*/
+.ContentPage
+{
+    background-attachment:fixed;
+    background-image: url(SysImages/RightPage/mainbg.gif);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#FFFFFF;
+}
+
+/*--------搜尋按鈕--------*/
+.Search_bu
+{
+    background-image:url(SysImages/RightPage/search_bu1.gif);
+    width:63px;
+    height:22px;
+    color:#11449e;
+    background-color:#a9a9a9;
+    border:0px;
+    font-size:9pt;
+    cursor:pointer;
+}
+
+/*---------TreeView-----*/
+.myNodeStyle
+{
+    font: 9pt Tahoma;
+	vertical-align: middle;
+	border: none;
+	background-color:Transparent;
+	color: #000000;
+	cursor: pointer;
+	padding-left:2px;
+}
+
+
+.mySelectedNodeStyle
+{
+    font: 9pt Tahoma; 
+	vertical-align: middle;
+	border: 1px solid #666666;
+	background-color: #ffffff;
+	cursor: pointer;
+	padding-left:2px;
+}
+
+.mySelectedNodeStyle a
+{
+    outline:none;
+}
+
+/*---------TreeView-----*/
+
+
+/*---------------固定Toolbar相關DOM物件用-----------------*/
+#fixed-header{
+    background-attachment:fixed;
+    background-image: url(SysImages/RightPage/mainbg.gif);
+	background-repeat: repeat-x;
+    width:100%;
+    position:fixed; /*固定位置定位*/
+    top:0; /*距離上方 0 像素*/
+    z-index:6000; /*重疊時會在其他元素之上*/
+    _position:absolute; /* position fixed for IE6 */
+    _top:expression(documentElement.scrollTop+"px");
+}
+.fixed-header{/*fixed-header效果append DOM用*/}
+/*---------------固定Toolbar相關DOM物件用-----------------*/
+
+ 
